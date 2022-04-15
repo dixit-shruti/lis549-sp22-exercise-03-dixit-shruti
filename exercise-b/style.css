@@ -12,20 +12,23 @@ g.contained .small {
     fill: #573d29;
 }
 
-g.contained circle rect{
+g.contained circle, rect#rect{
     fill: #c0c0c0;
     stroke: none;
+    opacity: 1;
 }
 
 #interactive {
     fill: #c0c0c0;
     stroke: #bd250d;
     stroke-width: 4px;
+    fill:#bd250d;
 }
 #interactive .hover {
     fill: #bd250d;
 }
 
 svg rect{
-    opacity: 1;
+    opacity: 0;
 }
+

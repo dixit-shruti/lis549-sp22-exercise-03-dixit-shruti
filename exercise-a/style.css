@@ -31,6 +31,6 @@ tr:nth-child(even){
     background-color: #eee;
 }
 
- tr td .hover{
-    background-color: pink;
+ tbody tr td.hover{
+    color: pink;
   }
