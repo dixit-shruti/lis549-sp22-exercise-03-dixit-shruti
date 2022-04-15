@@ -22,13 +22,20 @@ g.contained circle, rect#rect{
     fill: #c0c0c0;
     stroke: #bd250d;
     stroke-width: 4px;
-    fill:#bd250d;
+    
 }
-#interactive .hover {
+
+path#interactive:hover {
     fill: #bd250d;
 }
 
 svg rect{
     opacity: 0;
 }
+
+svg path:last-of-type{
+    stroke: none;
+}
+
+
 
