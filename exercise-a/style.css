@@ -1,8 +1,7 @@
-body {
+h1 {
     font-weight: 300;
     font-family: Roboto, sans-serif;
-    text-align: center; 
-    color: red; 
+    text-align: center;
 }
 
 table {
@@ -11,10 +10,27 @@ table {
     margin-right: auto;
 }
 
-thead {
+.head {
 height: 2rem;
 text-align: left;
 color: #1db954;
 background-color: #d3d3d3;
 border-collapse: collapse;
 }
+
+.image {
+    max-height: 100px;
+    max-width: 100px;
+}
+td{
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+ tr td .hover{
+    background-color: pink;
+  }
